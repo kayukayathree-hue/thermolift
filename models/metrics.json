@@ -1,0 +1,87 @@
+{
+ "metrics": {
+  "cycle_oil": {
+   "R2": 0.902,
+   "MAE": 257.166
+  },
+  "T_nearwell": {
+   "R2": 0.952,
+   "MAE": 5.724
+  },
+  "oil_bpd": {
+   "R2": 0.938,
+   "MAE": 1.127
+  },
+  "rfi": {
+   "R2": 0.849,
+   "MAE": 0.349
+  },
+  "rod_floating_flag": {
+   "AUC": 0.98,
+   "F1": 0.932,
+   "positive_rate": 0.594
+  },
+  "rod_failure": {
+   "AUC": 0.651,
+   "F1": 0.675,
+   "positive_rate": 0.558
+  }
+ },
+ "n_wells": 120,
+ "n_cycles": 597,
+ "n_daily": 43581,
+ "CYC_F": [
+  "depth",
+  "pay",
+  "q0",
+  "re",
+  "steam_V",
+  "steam_Pinj",
+  "steam_rate",
+  "steam_x",
+  "soak",
+  "SPM",
+  "stroke",
+  "cut",
+  "prev_cycles"
+ ],
+ "DAY_F": [
+  "day",
+  "depth",
+  "pay",
+  "q0",
+  "re",
+  "steam_V",
+  "steam_Pinj",
+  "steam_rate",
+  "steam_x",
+  "soak",
+  "stroke",
+  "prev_cycles",
+  "SPM"
+ ],
+ "RFI_F": [
+  "visc_cP",
+  "SPM",
+  "stroke",
+  "gross_bpd",
+  "wc"
+ ],
+ "FAIL_F": [
+  "depth",
+  "pay",
+  "q0",
+  "re",
+  "steam_V",
+  "steam_Pinj",
+  "steam_rate",
+  "steam_x",
+  "soak",
+  "SPM",
+  "stroke",
+  "cut",
+  "prev_cycles",
+  "max_rfi",
+  "float_days"
+ ]
+}
